@@ -14,8 +14,8 @@ chmod +x ~/.hermes/bin/hermes-usage
 ```bash
 hermes-usage                 # current session (most recently active)
 hermes-usage --session ID    # one session
-hermes-usage --all           # totals across all sessions
-hermes-usage --list          # list sessions with usage
+hermes-usage --all           # per-session breakdown + grand total (all models/tasks)
+hermes-usage --list          # session list with token totals + grand total
 ```
 
 Resolves the database via `$HERMES_HOME` (falls back to `~/.hermes`), so it works across profiles.
